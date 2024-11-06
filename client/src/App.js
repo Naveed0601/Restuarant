@@ -1,4 +1,5 @@
 import React from "react";
+// import quality from './assets/quality_food'
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
