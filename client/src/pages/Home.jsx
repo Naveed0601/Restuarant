@@ -4,6 +4,7 @@ import About from "../component/About";
 import Qualities from "../component/Qualities";
 import Menu from "../component/Menu";
 import WhoAreWe from "../component/WhoAreWe";
+import Team from "../component/Team";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Qualities />
       <Menu />
       <WhoAreWe />
+      <Team />
     </div>
   );
 };
