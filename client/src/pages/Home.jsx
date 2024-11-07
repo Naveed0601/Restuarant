@@ -6,6 +6,7 @@ import Menu from "../component/Menu";
 import WhoAreWe from "../component/WhoAreWe";
 import Team from "../component/Team";
 import Reservation from "../component/Reservation";
+import Footer from "../component/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <WhoAreWe />
       <Team />
       <Reservation />
+      <Footer />
     </div>
   );
 };
