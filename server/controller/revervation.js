@@ -3,6 +3,7 @@ const Reservation = require("../models/revervationSchema");
 
 const sendReservation = async (req, res, next) => {
   const { firstName, lastName, phoneNumber, email, time, date } = req.body;
+  console.log(req.body);
 
   if (!firstName || !lastName || !phoneNumber || !email || !time || !date) {
     return next(new ErrorHandler("Please fill full reservation form!", 400));
